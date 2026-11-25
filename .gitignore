@@ -1,0 +1,25 @@
+# Local secrets and Cloudflare state
+.dev.vars
+.dev.vars.*
+.env
+.env.*
+!.env.example
+.wrangler/
+
+# Downloaded tools, browser profiles, screenshots and test data
+.tools/*
+!.tools/apply-patch.js
+!.tools/patch/
+.tools/patch/*
+!.tools/patch/*.js
+node_modules/
+decompiled/
+*.db
+*.sqlite
+*.bcbak
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
