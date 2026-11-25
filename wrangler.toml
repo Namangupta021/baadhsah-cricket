@@ -1,0 +1,7 @@
+name = "baadhsah-cricket"
+pages_build_output_dir = "mirror"
+compatibility_date = "2024-11-01"
+
+[[kv_namespaces]]
+binding = "BACKUPS"
+id = "a604a43a626e4894b517cb42af825dcb"
